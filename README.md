@@ -1,2 +1,0 @@
-# CSS-example
-CSS code
