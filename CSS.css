@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Preview</title>
+  <style>
+    .preview {
+      background-color: rgb(243,205,69);
+      display: inline-block;
+      margin: 10px;
+      padding: 0 60px 0 0;
+    }
+
+    .preview .previewsecondLevel {
+      color: rgb(81, 79, 245);
+      margin-bottom: 10px;
+    }
+
+    .preview p {
+      color: white;
+      margin: 0;
+    }
+
+    /* Styles for .preview2 */
+    .preview2 {
+      background-color: rgb(104, 180, 140);
+      display: inline-block;
+      margin: 10px;
+      padding: 10px 100px 20px 10px;
+      border-radius: 5px;
+    }
+
+    .preview2 .preview2secondLevel {
+      color: rgb(61, 61, 78);
+      margin-bottom: 20px;
+      font-family: Arial, sans-serif;
+      font-size: 12px;
+      font-weight: bold;
+    }
+
+    .preview2 p {
+      color: white;
+      margin: 10px 0;
+      font-family: Arial, sans-serif;
+      font-size: 16px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <div class="preview">
+    <div class="previewsecondLevel">Try it myself</div>
+    <p>Hello World</p>
+  </div>
+
+  <br>
+
+  <div class="preview2">
+    <div class="preview2secondLevel">Try it myself with<br>more style element</div>
+    <p>Hello World</p>
+  </div>
+</body>
+</html>
